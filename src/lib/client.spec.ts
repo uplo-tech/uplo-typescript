@@ -26,9 +26,9 @@ test("can create client with no config", (t) => {
   t.is(path, BIN_PATH);
 
   // Check that default flags are passed in
-  const hasApiAddr = flags.includes("--api-addr=localhost:9980");
-  const hasHostAddr = flags.includes("--host-addr=:9982");
-  const hasRpcAddr = flags.includes("--rpc-addr=:9981");
+  const hasApiAddr = flags.includes("--api-addr=localhost:8480");
+  const hasHostAddr = flags.includes("--host-addr=:8482");
+  const hasRpcAddr = flags.includes("--rpc-addr=:8481");
   t.true(hasApiAddr);
   t.true(hasHostAddr);
   t.true(hasRpcAddr);

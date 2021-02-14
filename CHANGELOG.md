@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.4.18](https://github.com/uplo-tech/uplo-typescript/compare/v1.4.17...v1.4.18) (2020-08-20)
+### [1.4.19](https://github.com/uplo-tech/uplo-typescript/compare/v1.4.17...v1.4.19) (2020-08-20)
 
 <a name="1.4.17"></a>
 ## [1.4.17](https://github.com/uplo-tech/uplo-typescript/compare/v1.4.16...v1.4.17) (2020-07-14)

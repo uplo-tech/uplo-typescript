@@ -1,6 +1,6 @@
 {
   "name": "uplo-typescript",
-  "version": "1.4.18",
+  "version": "1.4.19",
   "description": "A library to interface with the Uplo daemon",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",

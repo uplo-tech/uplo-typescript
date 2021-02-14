@@ -52,9 +52,9 @@ export class Client {
       const defaultConfig: ClientConfig = {
         apiAuthentication: "auto",
         apiHost: "localhost",
-        apiPort: 9980,
-        hostPort: 9982,
-        rpcPort: 9981,
+        apiPort: 8480,
+        hostPort: 8482,
+        rpcPort: 8481,
       };
       this.config = { ...defaultConfig, ...config };
       // If strategy is set to 'auto', attempt to read from default uplopassword file.

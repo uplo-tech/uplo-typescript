@@ -8,11 +8,11 @@ import { assignDefined } from "./utils";
 export function parseFlags(config: ClientConfig): string[] {
   // Default flags used in the Uplo Daemon.
   const defaultFlags: UplodFlags = {
-    "api-addr": "localhost:9980",
+    "api-addr": "localhost:8480",
     "authenticate-api": false,
     "disable-api-security": false,
-    "host-addr": ":9982",
-    "rpc-addr": ":9981",
+    "host-addr": ":8482",
+    "rpc-addr": ":8481",
   };
   // Build flag arguements from constructor details
   const flags = assignDefined(defaultFlags, {
